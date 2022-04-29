@@ -1,0 +1,52 @@
+@media(max-width:1200px){
+  .phone__item{
+    margin: 0 15px;
+  }
+}
+@media(max-width:992px){
+  .airpods__item{
+    flex-direction: column;
+  }
+  .phones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .phone__item{
+    margin-bottom: 30px;
+  }
+}
+@media(max-width:768px){
+  .header__list,
+  .header__content{
+    flex-direction: column;
+  }
+  .header__svg{
+    margin-right: 10px;
+  }
+  .header__svg,
+  .header__link{
+    margin-left: 0;
+  }
+
+  .header__list li{
+    margin: 15px 0;
+  }
+  .intro__title{
+    font-size: 50px;
+  }
+}
+@media(max-width:678px){
+  .footer__item{
+    flex-direction: column;
+  }
+  .footer__nav{
+    margin: 20px 0;
+  }
+  .footer__img{
+    margin-left: 0;
+  }
+  .airpods__img{
+    width: 100%;
+  }
+}
